@@ -1,0 +1,38 @@
+---
+title: "Fibonacci-Lucas-Sequence"
+author: "David Jackson"
+date: "12/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(scales)
+library(numbers)
+```
+
+#### Fibonacci Number Sequences
+
+```{r}
+fibonacci(50,sequence = TRUE)
+```
+
+#### Lucas Number Sequences
+
+```{r}
+lucas(50)
+```
+
+#### Prime Number Sequences
+
+```{r}
+ Primes(50)
+```
+
+#### Egyptian Fractions - Complete Search
+
+```{r}
+egyptian_complete(6, 7) 
+```
+
